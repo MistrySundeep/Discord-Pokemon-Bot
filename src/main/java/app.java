@@ -8,7 +8,7 @@ import discord4j.core.object.entity.User;
 
 public class app {
     public static void main(String[] args) {
-        String token = "NzgzNzk2NTc5MDQzMTE1MDY5.X8f9cg.7MIZbcnyNQcpCnl5xED2_Fkgn4U";
+        String token = "Enter Your Token Here";
         GatewayDiscordClient client = DiscordClientBuilder.create(token).build().login().block();
 
         try{
